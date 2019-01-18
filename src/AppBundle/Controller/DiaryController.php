@@ -14,6 +14,7 @@ class DiaryController extends Controller
     public function indexAction()
     {
     	// test
+    	// another test
         return $this->render('diary/index.html.twig');
     }
 }
