@@ -24,13 +24,13 @@ class GithubUserProviderTest extends \PHPUnit_Framework_TestCase
             ->disableOriginalConstructor()
             ->getMock();
 
-        // $this->streamedResponse = $this
-        //     ->getMockBuilder('Psr\Http\Message\StreamInterface')
-        //     ->getMock();
+        $this->streamedResponse = $this
+            ->getMockBuilder('Psr\Http\Message\StreamInterface')
+            ->getMock();
 
-        // $this->response = $this
-        //     ->getMockBuilder('Psr\Http\Message\ResponseInterface')
-        //     ->getMock();
+        $this->response = $this
+            ->getMockBuilder('Psr\Http\Message\ResponseInterface')
+            ->getMock();
     }
 
     public function testLoadUserByUsernameReturningAUser()
