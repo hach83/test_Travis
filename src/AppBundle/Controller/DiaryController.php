@@ -13,6 +13,7 @@ class DiaryController extends Controller
      */
     public function indexAction()
     {
+    	// test
         return $this->render('diary/index.html.twig');
     }
 }
